@@ -70,7 +70,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: hello-windows-x64
-          path: dist/hello-windows-x64
+          path: dist/hello-windows-x64.exe
 
       # Exercise 3: Implement artifact upload here
       # - name: Upload Windows artifact
